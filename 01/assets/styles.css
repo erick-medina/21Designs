@@ -1,7 +1,9 @@
-body {
-  background: red;
-  display: flex;
-  justify-content: center;
+footer .social-wrapper {
+  background: #ffe5ed;
+  padding-top: 15px;
+}
+footer .font-color {
+  color: gray;
 }
 
 /*# sourceMappingURL=styles.css.map */
