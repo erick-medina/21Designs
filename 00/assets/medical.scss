@@ -1,11 +1,17 @@
+body {
+    #center-content {
+      justify-content: center;
+      text-align: center;
+    }
+}
+
 label {
   font-weight: bold;
 }
 .medForm {
-justify-content: center;
-  text-align: center;
+
 }
 
 form {
-  width: 80%;
+  width: 100%;
 }
