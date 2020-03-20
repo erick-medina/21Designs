@@ -1,9 +1,35 @@
 footer {
   .social-wrapper {
     background: #ffe5ed;
-    padding-top: 15px;
+    padding-top: 20px;
   }
   .font-color {
     color: gray;
   }
 }
+
+
+/*-- Media Queries --*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+  .pad-email {
+    padding-left: 4rem !important;
+    padding-right: 0 !important;
+  }
+  .padding-md {
+    padding-right: 0 !important;
+  }
+}
+@media (max-width: 576px) {
+  .pad-email {
+    padding-left: 1rem !important;
+  }
+
+}
+
+
+
+
+
