@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="//unpkg.com/bootstrap-select-country@4.0.0/dist/css/bootstrap-select-country.min.css" type="text/css" />
+    <link rel="stylesheet" href="//unpkg.com/bootstrap-select-country@4.0.0/dist/css/bootstrap-select-country.min.css"
+          type="text/css"/>
     <link rel="stylesheet" href="assets/medical.css">
     <!-- Javascript Link -->
     <script src="assets/countries.js"></script>
@@ -17,87 +18,133 @@
 <body>
 <header></header>
 <main>
-    <form class="">
-        <div class="container">
-        <h2 class="text-center">Emergency Contact and Medical Information</h2>
-        <label>Name</label>
-        <div class="form-inline">
-            <div>
-                <input type="text" class="form-control" name="fname" id="input-width-1">
-                <small class="form-text text-dark">First</small>
+    <form>
+        <div class="container bg-light border-left">
+            <h3 class="pt-4 mb-4"> Emergency Contact and Medical Information</h3>
+            <div class="border-top mb-3"></div>
+            <label class="font-weight-bold">Name</label>
+            <div class="form-inline">
+                <div>
+                    <input type="text" class="form-control mr-2" name="fname">
+                    <small class="form-text text-dark">First</small>
+                </div>
+                <div>
+                    <input type="text" class="form-control" name="lname"><br>
+                    <small class="form-text text-dark">Last</small>
+                </div>
             </div>
-            <div>
-                <input type="text" class="form-control" name="lname"><br>
-                <small class="form-text text-dark">Last</small>
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="col">
-                <label>Gender</label>
-                <select class="form-control">
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                    <option value="Other">Other</option>
-                </select>
-            </div>
-            <div class="col">
-                <label for="start">Date of Birth</label><br>
-                <input class="form-control" type="date" id="start" name="trip-start"
-                       value="2018-07-22"
-                       min="2018-01-01" max="2018-12-31">
-            </div>
-        </div>
-        <div>
-            <h5>Emergency contact</h5>
-        </div>
-        <div class="form-row">
-            <div class="col">
-                <label>Name</label>
-        <div class="form-inline">
-            <div>
-                <input type="text" class="form-control" name="fname">
-                <small class="form-text text-dark">First</small>
-            </div>
-            <div>
-                <input type="text" class="form-control" name="lname"><br>
-                <small class="form-text text-dark">Last</small>
-            </div>
-        </div>
-            </div>
+            <div class="form-row">
                 <div class="col">
-                    <label>Relationship</label>
+                    <label class="font-weight-bold mt-3">Gender</label>
+                    <select class="form-control">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label class="font-weight-bold mt-3" for="start">Date of Birth</label><br>
+                    <input class="form-control" type="date" id="start" name="date-of-birth">
+                </div>
+            </div>
+            <div class="border-bottom pb-4"></div>
+            <div>
+                <h5 class="mt-3 mb-3">Emergency contact</h5>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <label class="font-weight-bold">Name</label>
+                    <div class="form-inline">
+                        <div>
+                            <input type="text" class="form-control mr-2" name="fname">
+                            <small class="form-text text-dark">First</small>
+                        </div>
+                        <div>
+                            <input type="text" class="form-control" name="lname"><br>
+                            <small class="form-text text-dark">Last</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <label class="font-weight-bold">Relationship</label>
                     <input type="text" class="form-control" name="relationship"><br>
                 </div>
-        </div>
-        <div class="form-row">
-            <label>Address</label>
-            <input type="text" class="form-control" name="streetaddress"><br>
-            <small class="form-text text-dark">Street Address</small>
-        </div>
-        <div class="form-row">
-            <input type="text" class="form-control" name="adressline"><br>
-            <small class="form-text text-dark">Address Line 2</small>
-        </div>
+            </div>
+            <div class="form-row">
+                <label class="font-weight-bold mt-3 ml-1">Address</label>
+                <input type="text" class="form-control ml-1" name="streetaddress"><br>
+                <small class="form-text text-dark ml-1 mb-3">Street Address</small>
+            </div>
+            <div class="form-row">
+                <input type="text" class="form-control ml-1" name="adressline"><br>
+                <small class="form-text text-dark ml-1 mb-3">Address Line 2</small>
+            </div>
             <div class="form-row">
                 <div class="col">
                     <input type="text" class="form-control">
-                    <small class="form-text text-dark">City</small>
+                    <small class="form-text text-dark mb-3">City</small>
                 </div>
                 <div class="col">
                     <input type="text" class="form-control">
-                    <small class="form-text text-dark">State / Province / Region</small>
+                    <small class="form-text text-dark mb-3">State / Province / Region</small>
                 </div>
             </div>
             <div class="form-row">
                 <div class="col">
                     <input type="text" class="form-control">
-                    <small class="form-text text-dark">Postal / Zip Code</small>
+                    <small class="form-text text-dark mb-3">Postal / Zip Code</small>
                 </div>
                 <div class="col">
-                    <select id="country" name ="country"></select>
-                    <small class="form-text text-dark">Country</small>
+                    <select id="country" class="form-control"></select>
+                    <small class="form-text text-dark mb-4">Country</small>
                 </div>
             </div>
+            <div class="form-row">
+                <div class="col">
+                    <label class="font-weight-bold">Home Phone</label>
+            <input class="form-control" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <small class="form-text text-dark">### ### ###</small>
+                </div>
+                <div class="col">
+                    <label class="font-weight-bold">Work Phone</label>
+                    <input class="form-control" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <small class="form-text text-dark">### ### ###</small>
+                </div>
+            </div>
+            <div class="border-bottom pb-4"></div>
+            <div>
+                <h5 class="mt-3 mb-3">Medical Information</h5>
+            </div>
+            <div class="form-row">
+                <label class="font-weight-bold ml-1">Hospital / Clinic Preference </label>
+                <input type="text" class="form-control ml-1" name="hospital"><br>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <label class="font-weight-bold">Insurance Company</label>
+                    <input type="text" class="form-control" name="insurance"><br>
+                </div>
+                <div class="col">
+                    <label class="font-weight-bold">Policy Number</label>
+                    <input type="text" class="form-control" name="policy"><br>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <label class="font-weight-bold">Physician's Name</label>
+                    <input type="text" class="form-control" name="insurance"><br>
+                </div>
+                <div class="col">
+                    <label class="font-weight-bold">Phone Number</label>
+                    <input class="form-control" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <small class="form-text text-dark">### ### ###</small>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="font-weight-bold">Allergies / Special Health Considerations</label>
+                <textarea class="form-control" id="message" rows="5"></textarea>
+            </div>
+            <button class="btn btn-dark mt-2 mb-3" type="submit">Submit</button>
         </div>
     </form>
 </main>
