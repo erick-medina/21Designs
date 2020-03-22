@@ -1,17 +1,17 @@
-body {
-    #center-content {
-      justify-content: center;
-      text-align: center;
-    }
+@mixin inputWidth1 {
+  width: 95%;
+}
+@mixin inputWidth2 {
+  width: 25%;
 }
 
-label {
-  font-weight: bold;
-}
-.medForm {
-
+#input-width-1 {
+  @include inputWidth1();
 }
 
-form {
-  width: 100%;
+#input-width-2 {
+  @include inputWidth2();
 }
+
+
+

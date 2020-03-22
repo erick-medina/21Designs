@@ -1,14 +1,9 @@
-body #center-content {
-  justify-content: center;
-  text-align: center;
+#input-width-1 {
+  width: 95%;
 }
 
-label {
-  font-weight: bold;
-}
-
-form {
-  width: 100%;
+#input-width-2 {
+  width: 25%;
 }
 
 /*# sourceMappingURL=medical.css.map */
