@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMA,IAAK;EACH,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;;AAErB,cAAe;EATb,KAAK,EAAE,GAAG;;AAaZ,cAAe;EAVb,KAAK,EAAE,GAAG",
+"sources": ["../00/assets/medical.scss"],
+"names": [],
+"file": "medical.css"
+}
