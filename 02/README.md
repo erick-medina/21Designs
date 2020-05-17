@@ -1,9 +1,9 @@
-#Pagination
+<h1Pagination</h1>
 
-####Mockup:
+<h3Mockup:</h3>
 
 ![Footer](02.pagination.png)
 
-####Result:
+<h3>Result:</h3>
 
 [Click here to check final result.](https://nervous-rosalind-6a086d.netlify.app/)
