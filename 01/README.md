@@ -1,9 +1,9 @@
-#Footer social
+<h1>Footer social</h1>
 
-####Mockup:
+<h3>Mockup:</h3>
 
 ![Footer](01.footer-social.png)
 
-####Result:
+<h3>Result:</h3>
 
 [Click here to check final result.](https://angry-curran-655a42.netlify.app/)
