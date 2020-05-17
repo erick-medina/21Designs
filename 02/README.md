@@ -1,6 +1,6 @@
-<h1Pagination</h1>
+<h1>Pagination</h1>
 
-<h3Mockup:</h3>
+<h3>Mockup:</h3>
 
 ![Footer](02.pagination.png)
 
